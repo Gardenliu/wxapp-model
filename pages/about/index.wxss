@@ -1,0 +1,12 @@
+.link{
+    background-color: #fff;
+    width: 90%;
+    margin: 1em auto 0;
+    padding: 1em .5em;
+    box-sizing: border-box;
+    border-radius: .5em;
+    box-shadow:0 10rpx 10rpx rgba(0,0,0,0.1);
+}
+.info{padding:.5em .5em 0;line-height: 2em}
+.title{color: #04C1C3;font-size: 1rem}
+.btn{float: right;background-color: #04C1C3 !important}

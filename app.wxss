@@ -1,0 +1,69 @@
+@import 'vendor/assets/styles/base/weui.wxss';
+page {
+  background-color: #fff;
+  font-family: "Microsoft YaHei";
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+  justify-content: space-between;
+    background: #F4F4F4
+}
+.fr{float: right}
+.black{
+    color: #333 !important;
+}
+.green{
+    color: #09BB07;
+}
+.red{
+    color: #F76260;
+}
+.blue{
+    color: #00C2C2;
+}
+.yellow{
+    color: #FE8514;
+}
+.gray{
+    color: #C9C9C9;
+}
+.white{color: #fff}
+.strong{
+    font-weight: bold;
+}
+
+.bc_green{
+    background-color: #09BB07;
+}
+.bc_red{
+    background-color: #F76260;
+}
+.bc_blue{
+    background-color: #00C2C2;
+}
+.bc_yellow{
+    background-color: #F59B4F;
+}
+.bc_gray{
+    background-color: #C9C9C9;
+}
+
+
+.page {
+    min-height: 100%;
+    background-color: #FBF9FE;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.block1{width: 100%;display: block;height:.5rem}
+.noData{text-align: center;font-size: .9rem;color: #999;margin-top: 2rem}
+.noData .tipImg{width:5rem;
+    height:150px;
+}
+
+page{font-size: .8rem}
+.index_banner{width: 100%;height: 375rpx;display: block;background-color: #333}
+.index_banner .slide-image{width: 100%;height: 375rpx;}
+
+
+.common_top_title{text-align: center;font-size: 1em;color: #FE8514;padding: 15rpx}

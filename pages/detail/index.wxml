@@ -1,0 +1,11 @@
+<import src="../../vendor/assets/plugins/RichTextArea/wxParse/wxParse.wxml"/>
+<view class="container">
+    <image class="detail_top" mode="widthFix" src="{{detail.cover}}"></image>
+    <view class="content">
+        <view class="title">{{detail.title}}</view>
+        <view class="time"><icon type="waiting_circle" size="18" color="rgb(0,255,255)"/> {{detail.create_time}} <text class="blue">郑州银行</text></view>
+        <view class="main">
+            <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+        </view>
+    </view>
+</view>

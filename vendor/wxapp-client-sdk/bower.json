@@ -1,0 +1,33 @@
+{
+  "name": "wxapp-client-sdk",
+  "version":"1.0",
+  "description": "微运赢小程序客户端 SDK",
+  "main": "index.js",
+  "authors": [
+    "wyying"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "qcloud",
+    "weapp",
+    "wechat",
+    "sdk",
+    "client",
+    "auth",
+    "websocket"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "typings.json",
+    "jsconfig.json",
+    "package.json",
+    ".npmignore",
+    ".travis.yml",
+    ".gitignore"
+  ]
+}

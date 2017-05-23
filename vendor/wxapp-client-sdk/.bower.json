@@ -1,0 +1,42 @@
+{
+  "name": "wxapp-client-sdk",
+  "description": "微运赢小程序客户端 SDK",
+  "main": "index.js",
+  "authors": [
+    "wyying"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "qcloud",
+    "weapp",
+    "wechat",
+    "sdk",
+    "client",
+    "auth",
+    "websocket"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "typings.json",
+    "jsconfig.json",
+    "package.json",
+    ".npmignore",
+    ".travis.yml",
+    ".gitignore"
+  ],
+  "_release": "*",
+  "_resolution": {
+    "type": "branch",
+    "branch": "trunk",
+    "commit": "*"
+  },
+  "_source": "http://scm.wyying.com/svn/wyying/sources/weixin/wxapp-client-sdk",
+  "_target": "*",
+  "_originalSource": "wxapp-client-sdk",
+  "_direct": true
+}

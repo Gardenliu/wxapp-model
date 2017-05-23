@@ -1,0 +1,37 @@
+<view class="container">
+    <swiper indicator-dots="{{true}}" class="index_banner" autoplay="{{true}}" interval="{{3000}}" duration="{{300}}" circular="true">
+        <block wx:for="{{bannerList}}" wx:key="*this">
+            <swiper-item>
+                <navigator url="/pages/detail/index?id={{item.id}}"><image src="{{item.cover}}" class="slide-image" mode="aspectFill"/></navigator>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="main">
+        <view class="weui-cells">
+            <view class="weui-cell weui-cell_access">
+                <view class="weui-cell__bd">
+                    <text>所在地区</text>
+                </view>
+                <view class="weui-cell__ft_in-access">
+                    <picker bindchange="blockChange" value="{{index}}" range="{{block}}">
+                            {{block[index] || '请选择区域'}}
+                    </picker>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_access" bindtap="onSearch">
+                <view class="weui-cell__bd">
+                    <text>小区名称</text>
+                </view>
+                <view class="weui-cell__ft_in-access">{{area.hname || '请选择小区'}}
+                </view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__hd"><view class="weui-label">房屋面积(m²)</view></view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" type="digit" maxlength="5" bindinput="oninput"  placeholder="请输入房屋面积"/>
+                </view>
+            </view>
+        </view>
+        <button class="bc_blue white gzbtn" bindtap="onCast">我要估值</button>
+    </view>
+</view>

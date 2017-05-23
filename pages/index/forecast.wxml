@@ -1,0 +1,30 @@
+<view class="container">
+    <view class="index_banner">
+        <image class="forimg" src="http://image-10062465.image.myqcloud.com/i/17/04/06/e01fd38c0e3d1f3d6a2846ecb5633a24.jpg"></image>
+        <view class="forecast">
+            <text class="count">{{count}}</text>
+            <text class="foreInfo">房产总估值(万元)</text>
+        </view>
+        <text class="pginfo">(估值仅供参考,以实际评估金额为准)</text>
+    </view>
+    <view class="main">
+        <view class="bottom"></view>
+        <view class="title">你在我行最高可贷金额</view>
+        <view class="loan">
+            <text class="num">{{loanNum}}</text>
+            <text class="unit">万元</text>
+            <text class="info">(实际金额以合同文本为准)</text>
+        </view>
+        <view class="btnlist">
+            <navigator url="/pages/counter/index" open-type="switchTab">
+                <button class="btn" type="warn" plain="{{true}}">贷款计算器</button>
+            </navigator>
+            <navigator url="/pages/loan/index" open-type="switchTab">
+            <button class="btn" type="warn" plain="{{true}}">我要贷款</button>
+            </navigator>
+            <navigator class="again" url="/pages/index/index" open-type="switchTab">
+                再次估值
+            </navigator>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,6 @@
+.no-data{position: absolute;top: 0;left: 0; width: 100%;font-size: .9em;color: #999;background: #fff;height: 100%;text-align: center;z-index: 999}
+.no-data .box{margin-top: 20%;}
+.no-data .box image{width:70%;}
+.no-data .box .footer-btn{width:80%;margin-top: 20rpx;}
+.footer{width: 100%;position:fixed;bottom: 0px;padding: 20rpx 0 20rpx 0;background: #fff;border-top: 1px solid #e9e9e9;}
+.footer-btn{width: 80%;color:#fff;font-size: 16px;background-color: #10AEFF;}

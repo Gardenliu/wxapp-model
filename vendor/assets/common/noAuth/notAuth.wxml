@@ -1,0 +1,11 @@
+<view class="no-data">
+    <view class="box">
+        <image src="../../images/wsq.png" clsss="box-image" mode="aspectFit"></image>
+        <view style="font-size:16px;color:#456ab6">您尚未授权，无法使用搜索功能</view>
+        <view style="font-size:12px;color:#ccc;margin-top:50rpx;">若重新授权不成功，</view>
+        <view style="font-size:12px;color:#ccc">请等候数分钟或删除小程序使用记录重试。</view>
+            <navigator url="/pages/index/index" open-type="switchTab">
+            <button class="footer-btn bc-blue write">立即授权</button>
+            </navigator>
+    </view>
+</view>

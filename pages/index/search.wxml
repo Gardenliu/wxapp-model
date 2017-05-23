@@ -1,0 +1,9 @@
+<view class="container">
+    <view class="section">
+        <icon type="search" size="20"/><input bindinput="bindInput" placeholder="请输入小区名称" focus="true" />
+    </view>
+    <view bindtap="bindSearch" data-keywords="{{i.title}}" data-price="{{i.price}}" class="text_box" wx:for="{{tips}}" wx:for-item="i" wx:key="*this">
+        <view class="text_title">{{i.title}}</view>
+        <view class="text_info">{{i.address}}</view>
+    </view>
+</view>

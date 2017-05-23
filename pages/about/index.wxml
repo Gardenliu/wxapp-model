@@ -1,0 +1,17 @@
+<view class="container">
+    <image class="index_banner" src="../../vendor/assets/images/map_banner.png"></image>
+    <view class="content">
+        <view class="link" wx:for="{{linkList}}" wx:key="id">
+            <view class="title"><icon type="safe_success" size="20"></icon> {{item.title}}</view>
+            <view class="info">
+                <text>地址:{{item.address_name}}</text>
+                <button class="btn" type="primary" data-pos="{{item.address_pos}}" data-address="{{item.address_name}}" data-title="{{item.title}}" size="mini" bindtap="onMap">查看路线</button>
+            </view>
+            <view class="info">营业时间: {{item.time_rank}}</view>
+            <view class="info">
+                <text>联系电话:{{item.mobile}}</text>
+                <button class="btn" type="primary" size="mini"  data-mobile="{{item.mobile}}" bindtap="callMobile">拨打电话</button>
+            </view>
+        </view>
+    </view>
+</view>

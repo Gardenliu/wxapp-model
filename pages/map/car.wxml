@@ -1,0 +1,8 @@
+<view class="map_box">
+    <map id="navi_map" longitude="113.681965" latitude="34.764026" scale="12" markers="{{markers}}" polyline="{{polyline}}"></map>
+</view>
+
+<view class="text_box">
+    <view class="text">距离: {{distance}}</view>
+    <view class="text">{{cost && ('花费: '+cost)}}</view>
+</view>

@@ -1,0 +1,37 @@
+.index_banner{
+    background-color: #00C2C2;height: auto;color: #fff;
+    padding: 10rpx 80rpx 20rpx;box-sizing: border-box;
+}
+.weui-label{width: 115px}
+.after:after {
+    display: none;
+}
+.text-center{text-align: center}
+.count_hd{
+    display: flex;
+}
+.count_bd{
+    flex-direction: row;
+    flex: 1;
+}
+.count_bd text{display: block;}
+.count_bd .num{font-size: 1.6em}
+.count_bd .fs2{font-size: 2em}
+
+.weui-input {
+text-align:right;
+}
+.main_info{color: #666;width: 90%;margin:.5em 4%;display: block;font-size: .9em;}
+.btns{text-align: center;margin-top:1em;}
+.btns button{display: inline-block;width: 45%;margin: 2%;}
+
+.compute{background-color: #04C1C3 !important;}
+
+button[plain]  {
+    color:#fff;
+    border:1px solid #fff;
+    font-size: 1em;
+    background-color:transparent;
+}
+.myloanBtn{margin: 30rpx auto 20rpx;width: 400rpx}
+
